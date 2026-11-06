@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Locker Kiosk Architecture",
+    "quality_profile": "showcase"
+  },
+  "layout": {
+    "mode": "grid",
+    "cols": 3,
+    "gapX": 150,
+    "gapY": 150
+  },
+  "components": [
+    {
+      "id": "frontend",
+      "type": "frontend",
+      "label": "Next.js Kiosk UI",
+      "sublabel": "Customer & Admin interfaces",
+      "row": 0,
+      "col": 0
+    },
+    {
+      "id": "api_routes",
+      "type": "backend",
+      "label": "Next.js API Routes",
+      "sublabel": "Booking & Payment logic",
+      "row": 0,
+      "col": 1
+    },
+    {
+      "id": "booking_service",
+      "type": "backend",
+      "label": "Booking Service",
+      "sublabel": "Domain business rules",
+      "row": 1,
+      "col": 1
+    },
+    {
+      "id": "mongodb",
+      "type": "database",
+      "label": "MongoDB",
+      "sublabel": "Door & Transaction state",
+      "row": 1,
+      "col": 0
+    },
+    {
+      "id": "locker_controller",
+      "type": "external",
+      "label": "Locker Controller",
+      "sublabel": "HTTP Door Actuator",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "id": "payment_gateway",
+      "type": "external",
+      "label": "Payment Gateway",
+      "sublabel": "E-wallet & Cash processing",
+      "row": 0,
+      "col": 2
+    }
+  ],
+  "connections": [
+    {
+      "from": "frontend",
+      "to": "api_routes",
+      "label": "HTTP/JSON"
+    },
+    {
+      "from": "api_routes",
+      "to": "booking_service",
+      "label": "Internal Call",
+      "labelDy": 24
+    },
+    {
+      "from": "booking_service",
+      "to": "mongodb",
+      "label": "Mongoose"
+    },
+    {
+      "from": "booking_service",
+      "to": "locker_controller",
+      "label": "HTTP (Internal)",
+      "labelDy": 10
+    },
+    {
+      "from": "booking_service",
+      "to": "payment_gateway",
+      "label": "API/Webhook",
+      "labelDy": -10
+    }
+  ]
+}

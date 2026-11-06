@@ -1,0 +1,146 @@
+# ─────────────────────────────────────────────────────────────
+# Cash Kiosk — local infrastructure
+#
+# MongoDB runs as a single-node replica set (rs0) because the app
+# relies on two MongoDB features that require one:
+#   1. Change Streams  — used by the offline → online sync worker
+#   2. Multi-document transactions — used by cash payment commit
+#
+# Host port 27019 is used because a native mongod already owns 27017.
+# ─────────────────────────────────────────────────────────────
+
+name: locker-kiosk
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: locker-kiosk-mongo
+    restart: unless-stopped
+    ports:
+      - "${MONGO_HOST_PORT:-27019}:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USER:-admin}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD:-changeme123}
+      MONGO_INITDB_DATABASE: ${MONGO_DB:-whitelabel-keep}
+    volumes:
+      - mongo_data:/data/db
+      - mongo_config:/data/configdb
+    healthcheck:
+      # auth is enabled by the keyfile, so the probe must authenticate.
+      test:
+        [
+          "CMD-SHELL",
+          "mongosh --quiet -u \"$$MONGO_INITDB_ROOT_USERNAME\" -p \"$$MONGO_INITDB_ROOT_PASSWORD\" --authenticationDatabase admin --eval \"try { rs.status().members.some(m => m.stateStr === 'PRIMARY') } catch (e) { false }\" | grep -q true || exit 1",
+        ]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+      start_period: 40s
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+        set -e
+        # The keyfile is generated inside the container on the persistent
+        # volume, which avoids macOS Docker Desktop bind-mount permission
+        # problems with host-owned 400-mode files.
+        KEYFILE=/data/db/mongo-keyfile
+        if [ ! -f "$$KEYFILE" ]; then
+          openssl rand -base64 756 | tr -d '\n' > "$$KEYFILE"
+          printf '\n' >> "$$KEYFILE"
+        fi
+        chown 999:999 "$$KEYFILE" 2>/dev/null || true
+        chmod 400 "$$KEYFILE" 2>/dev/null || true
+        exec /usr/local/bin/docker-entrypoint.sh "$$@"
+    command:
+      - mongod
+      - --replSet
+      - rs0
+      - --bind_ip_all
+      - --keyFile
+      - /data/db/mongo-keyfile
+      - --wiredTigerCacheSizeGB
+      - "1"
+    networks:
+      - locker-kiosk-network
+
+  # One-shot helper: blocks until mongod answers, then initiates rs0.
+  # Safe to re-run — rs.initiate is skipped when the set already exists.
+  mongodb-init:
+    image: mongo:7.0
+    container_name: locker-kiosk-mongo-init
+    restart: "no"
+    depends_on:
+      mongodb:
+        condition: service_started
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USER:-admin}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD:-changeme123}
+    entrypoint:
+      - /bin/bash
+      - -c
+      - |
+        set -e
+        AUTH="-u $$MONGO_INITDB_ROOT_USERNAME -p $$MONGO_INITDB_ROOT_PASSWORD --authenticationDatabase admin"
+
+        echo "⏳ waiting for mongod to accept connections..."
+        for i in $$(seq 1 60); do
+          if mongosh --host mongodb --quiet $$AUTH --eval "db.adminCommand({ ping: 1 }).ok" 2>/dev/null | grep -q 1; then
+            echo "✅ mongod is up"
+            break
+          fi
+          sleep 2
+        done
+
+        ALREADY=$$(mongosh --host mongodb --quiet $$AUTH --eval "try { rs.status().ok } catch (e) { 0 }" 2>/dev/null | tail -1)
+        if [ "$$ALREADY" = "1" ]; then
+          echo "✅ replica set rs0 already initiated"
+        else
+          echo "🚀 initiating replica set rs0..."
+          mongosh --host mongodb --quiet $$AUTH --eval \
+            "rs.initiate({ _id: 'rs0', members: [{ _id: 0, host: 'mongodb:27017' }] })"
+        fi
+
+        echo "⏳ waiting for PRIMARY election..."
+        for i in $$(seq 1 60); do
+          STATE=$$(mongosh --host mongodb --quiet $$AUTH --eval \
+            "try { rs.status().members[0].stateStr } catch (e) { 'unknown' }" 2>/dev/null | tail -1)
+          if [ "$$STATE" = "PRIMARY" ]; then
+            echo "✅ PRIMARY elected"
+            exit 0
+          fi
+          sleep 2
+        done
+        echo "⚠️  timed out waiting for PRIMARY (continuing anyway)"
+    networks:
+      - locker-kiosk-network
+
+  # Optional: browse the database at http://localhost:8081
+  # Enable with:  docker compose --profile tools up -d
+  mongo-express:
+    image: mongo-express:1.0.2
+    container_name: locker-kiosk-mongo-express
+    restart: unless-stopped
+    profiles: ["tools"]
+    depends_on:
+      mongodb:
+        condition: service_started
+    ports:
+      - "${MONGO_EXPRESS_PORT:-8081}:8081"
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://${MONGO_ROOT_USER:-admin}:${MONGO_ROOT_PASSWORD:-changeme123}@mongodb:27017/?authSource=admin&replicaSet=rs0
+      ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
+      ME_CONFIG_BASICAUTH: "false"
+    networks:
+      - locker-kiosk-network
+
+volumes:
+  mongo_data:
+    name: locker_kiosk_mongo_data
+  mongo_config:
+    name: locker_kiosk_mongo_config
+
+networks:
+  locker-kiosk-network:
+    name: locker-kiosk-network
+    driver: bridge

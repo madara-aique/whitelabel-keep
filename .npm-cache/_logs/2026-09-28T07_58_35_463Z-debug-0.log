@@ -1,0 +1,1016 @@
+0 verbose cli /Applications/DSH Desktop.app/Contents/Frameworks/DSH Desktop Helper.app/Contents/MacOS/DSH Desktop Helper /Users/angelomadara/.local/bin/npm
+1 info using npm@10.9.8
+2 info using node@v24.17.0
+3 silly config load:file:/Users/angelomadara/.hermes/node/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/angelomadara/Github/whitelabel-keep/.npmrc
+5 silly config load:file:/Users/angelomadara/.npmrc
+6 silly config load:file:/Applications/DSH Desktop.app/Contents/Frameworks/DSH Desktop Helper.app/Contents/etc/npmrc
+7 verbose title npm install jsdom
+8 verbose argv "install" "--save-dev" "jsdom" "--cache" "./.npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:/Users/angelomadara/Github/whitelabel-keep/.npm-cache/_logs/2026-09-28T07_58_35_463Z-
+10 verbose logfile /Users/angelomadara/Github/whitelabel-keep/.npm-cache/_logs/2026-09-28T07_58_35_463Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+13 silly idealTree buildDeps
+14 silly fetch manifest jsdom@*
+15 silly packumentCache full:https://registry.npmjs.org/jsdom cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+17 http fetch GET 200 https://registry.npmjs.org/jsdom 403ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/jsdom set size:undefined disposed:false
+19 silly fetch manifest canvas@^3.2.3
+20 silly packumentCache full:https://registry.npmjs.org/canvas cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/canvas 69ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/canvas set size:undefined disposed:false
+23 silly placeDep ROOT jsdom@30.1.1 OK for: locker-kiosk@1.0.0 want: *
+24 silly fetch manifest saxes@^6.0.0
+25 silly packumentCache full:https://registry.npmjs.org/saxes cache-miss
+26 silly fetch manifest parse5@^8.0.1
+27 silly packumentCache full:https://registry.npmjs.org/parse5 cache-miss
+28 silly fetch manifest undici@^8.10.2
+29 silly packumentCache full:https://registry.npmjs.org/undici cache-miss
+30 silly fetch manifest css-tree@^3.2.1
+31 silly packumentCache full:https://registry.npmjs.org/css-tree cache-miss
+32 silly fetch manifest data-urls@^7.0.0
+33 silly packumentCache full:https://registry.npmjs.org/data-urls cache-miss
+34 silly fetch manifest lru-cache@^11.5.2
+35 silly packumentCache full:https://registry.npmjs.org/lru-cache cache-miss
+36 silly fetch manifest decimal.js@^10.6.0
+37 silly packumentCache full:https://registry.npmjs.org/decimal.js cache-miss
+38 silly fetch manifest whatwg-url@^17.1.1
+39 silly packumentCache full:https://registry.npmjs.org/whatwg-url cache-miss
+40 silly fetch manifest tough-cookie@^6.0.2
+41 silly packumentCache full:https://registry.npmjs.org/tough-cookie cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/parse5 61ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/parse5 set size:undefined disposed:false
+44 silly fetch manifest @exodus/bytes@^1.15.1
+45 silly packumentCache full:https://registry.npmjs.org/@exodus%2fbytes cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/@exodus%2fbytes 81ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/@exodus%2fbytes set size:undefined disposed:false
+48 silly fetch manifest whatwg-mimetype@^5.0.0
+49 silly packumentCache full:https://registry.npmjs.org/whatwg-mimetype cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/whatwg-url 249ms (cache revalidated)
+51 silly packumentCache full:https://registry.npmjs.org/whatwg-url set size:183026 disposed:false
+52 silly fetch manifest w3c-xmlserializer@^6.0.0
+53 silly packumentCache full:https://registry.npmjs.org/w3c-xmlserializer cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/lru-cache 252ms (cache revalidated)
+55 silly packumentCache full:https://registry.npmjs.org/lru-cache set size:465506 disposed:false
+56 silly fetch manifest webidl-conversions@^8.0.1
+57 silly packumentCache full:https://registry.npmjs.org/webidl-conversions cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/data-urls 258ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/data-urls set size:undefined disposed:false
+60 silly fetch manifest xml-name-validator@^5.0.0
+61 silly packumentCache full:https://registry.npmjs.org/xml-name-validator cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/decimal.js 278ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/decimal.js set size:undefined disposed:false
+64 silly fetch manifest @bramus/specificity@^2.4.2
+65 silly packumentCache full:https://registry.npmjs.org/@bramus%2fspecificity cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/tough-cookie 283ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/tough-cookie set size:undefined disposed:false
+68 silly fetch manifest @asamuzakjp/css-color@^7.0.0
+69 silly packumentCache full:https://registry.npmjs.org/@asamuzakjp%2fcss-color cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/whatwg-mimetype 144ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/whatwg-mimetype set size:undefined disposed:false
+72 silly fetch manifest html-encoding-sniffer@^7.0.0
+73 silly packumentCache full:https://registry.npmjs.org/html-encoding-sniffer cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/saxes 290ms (cache miss)
+75 silly packumentCache full:https://registry.npmjs.org/saxes set size:undefined disposed:false
+76 silly fetch manifest @asamuzakjp/dom-selector@^9.2.1
+77 silly packumentCache full:https://registry.npmjs.org/@asamuzakjp%2fdom-selector cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 59ms (cache revalidated)
+79 silly packumentCache full:https://registry.npmjs.org/webidl-conversions set size:46073 disposed:false
+80 silly fetch manifest is-potential-custom-element-name@^1.0.1
+81 silly packumentCache full:https://registry.npmjs.org/is-potential-custom-element-name cache-miss
+82 http fetch GET 200 https://registry.npmjs.org/css-tree 316ms (cache miss)
+83 silly packumentCache full:https://registry.npmjs.org/css-tree set size:undefined disposed:false
+84 silly fetch manifest @csstools/css-syntax-patches-for-csstree@^1.1.13
+85 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-syntax-patches-for-csstree cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/html-encoding-sniffer 57ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/html-encoding-sniffer set size:undefined disposed:false
+88 http fetch GET 200 https://registry.npmjs.org/w3c-xmlserializer 98ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/w3c-xmlserializer set size:undefined disposed:false
+90 http fetch GET 200 https://registry.npmjs.org/xml-name-validator 94ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/xml-name-validator set size:undefined disposed:false
+92 http fetch GET 200 https://registry.npmjs.org/is-potential-custom-element-name 54ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/is-potential-custom-element-name set size:undefined disposed:false
+94 http fetch GET 200 https://registry.npmjs.org/@bramus%2fspecificity 109ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/@bramus%2fspecificity set size:undefined disposed:false
+96 http fetch GET 200 https://registry.npmjs.org/@asamuzakjp%2fcss-color 108ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/@asamuzakjp%2fcss-color set size:undefined disposed:false
+98 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-syntax-patches-for-csstree 77ms (cache miss)
+99 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-syntax-patches-for-csstree set size:undefined disposed:false
+100 http fetch GET 200 https://registry.npmjs.org/undici 413ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/undici set size:undefined disposed:false
+102 http fetch GET 200 https://registry.npmjs.org/@asamuzakjp%2fdom-selector 159ms (cache miss)
+103 silly packumentCache full:https://registry.npmjs.org/@asamuzakjp%2fdom-selector set size:undefined disposed:false
+104 silly fetch manifest @noble/hashes@^1.8.0 || ^2.0.0
+105 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes cache-miss
+106 http fetch GET 200 https://registry.npmjs.org/@noble%2fhashes 74ms (cache miss)
+107 silly packumentCache full:https://registry.npmjs.org/@noble%2fhashes set size:undefined disposed:false
+108 silly placeDep ROOT @asamuzakjp/css-color@7.1.2 OK for: jsdom@30.1.1 want: ^7.0.0
+109 silly placeDep ROOT @asamuzakjp/dom-selector@9.2.2 OK for: jsdom@30.1.1 want: ^9.2.1
+110 silly placeDep ROOT @bramus/specificity@2.4.2 OK for: jsdom@30.1.1 want: ^2.4.2
+111 silly placeDep ROOT @csstools/css-syntax-patches-for-csstree@1.1.14 OK for: jsdom@30.1.1 want: ^1.1.13
+112 silly placeDep ROOT @exodus/bytes@1.16.0 OK for: jsdom@30.1.1 want: ^1.15.1
+113 silly placeDep ROOT css-tree@3.2.1 OK for: jsdom@30.1.1 want: ^3.2.1
+114 silly placeDep ROOT data-urls@7.0.0 OK for: jsdom@30.1.1 want: ^7.0.0
+115 silly placeDep ROOT decimal.js@10.6.0 OK for: jsdom@30.1.1 want: ^10.6.0
+116 silly placeDep ROOT html-encoding-sniffer@7.0.0 OK for: jsdom@30.1.1 want: ^7.0.0
+117 silly placeDep ROOT is-potential-custom-element-name@1.0.1 OK for: jsdom@30.1.1 want: ^1.0.1
+118 silly placeDep node_modules/jsdom lru-cache@11.5.3 OK for: jsdom@30.1.1 want: ^11.5.2
+119 silly placeDep ROOT parse5@8.0.1 OK for: jsdom@30.1.1 want: ^8.0.1
+120 silly placeDep ROOT saxes@6.0.0 OK for: jsdom@30.1.1 want: ^6.0.0
+121 silly placeDep ROOT tough-cookie@6.0.2 OK for: jsdom@30.1.1 want: ^6.0.2
+122 silly placeDep ROOT undici@8.11.2 OK for: jsdom@30.1.1 want: ^8.10.2
+123 silly placeDep ROOT w3c-xmlserializer@6.0.0 OK for: jsdom@30.1.1 want: ^6.0.0
+124 silly placeDep node_modules/jsdom webidl-conversions@8.0.1 OK for: jsdom@30.1.1 want: ^8.0.1
+125 silly placeDep ROOT whatwg-mimetype@5.0.0 OK for: jsdom@30.1.1 want: ^5.0.0
+126 silly placeDep node_modules/jsdom whatwg-url@17.1.2 OK for: jsdom@30.1.1 want: ^17.1.1
+127 silly placeDep ROOT xml-name-validator@5.0.0 OK for: jsdom@30.1.1 want: ^5.0.0
+128 silly fetch manifest lru-cache@^11.5.3
+129 silly packumentCache full:https://registry.npmjs.org/lru-cache cache-hit
+130 silly fetch manifest @csstools/css-calc@^3.4.1
+131 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-calc cache-miss
+132 silly fetch manifest @csstools/css-tokenizer@^4.0.2
+133 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-tokenizer cache-miss
+134 silly fetch manifest @csstools/css-color-parser@^4.2.4
+135 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-color-parser cache-miss
+136 silly fetch manifest @csstools/css-parser-algorithms@^4.0.1
+137 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-parser-algorithms cache-miss
+138 silly fetch manifest bidi-js@^1.1.0
+139 silly packumentCache full:https://registry.npmjs.org/bidi-js cache-miss
+140 silly fetch manifest lru-cache@^11.5.3
+141 silly packumentCache full:https://registry.npmjs.org/lru-cache cache-hit
+142 silly fetch manifest css-tree@^3.0.0
+143 silly packumentCache full:https://registry.npmjs.org/css-tree cache-miss
+144 silly fetch manifest mdn-data@2.27.1
+145 silly packumentCache full:https://registry.npmjs.org/mdn-data cache-miss
+146 silly fetch manifest whatwg-url@^16.0.0
+147 silly packumentCache full:https://registry.npmjs.org/whatwg-url cache-hit
+148 silly fetch manifest entities@^8.0.0
+149 silly packumentCache full:https://registry.npmjs.org/entities cache-miss
+150 silly fetch manifest xmlchars@^2.2.0
+151 silly packumentCache full:https://registry.npmjs.org/xmlchars cache-miss
+152 http cache https://registry.npmjs.org/css-tree 4ms (cache hit)
+153 silly packumentCache full:https://registry.npmjs.org/css-tree set size:229638 disposed:false
+154 silly fetch manifest tldts@^7.0.5
+155 silly packumentCache full:https://registry.npmjs.org/tldts cache-miss
+156 http fetch GET 200 https://registry.npmjs.org/xmlchars 54ms (cache miss)
+157 silly packumentCache full:https://registry.npmjs.org/xmlchars set size:undefined disposed:false
+158 silly fetch manifest tr46@^6.0.0
+159 silly packumentCache full:https://registry.npmjs.org/tr46 cache-miss
+160 http fetch GET 200 https://registry.npmjs.org/entities 76ms (cache miss)
+161 silly packumentCache full:https://registry.npmjs.org/entities set size:undefined disposed:false
+162 http fetch GET 200 https://registry.npmjs.org/bidi-js 78ms (cache miss)
+163 silly packumentCache full:https://registry.npmjs.org/bidi-js set size:undefined disposed:false
+164 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-parser-algorithms 92ms (cache miss)
+165 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-parser-algorithms set size:undefined disposed:false
+166 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-tokenizer 107ms (cache miss)
+167 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-tokenizer set size:undefined disposed:false
+168 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-calc 109ms (cache miss)
+169 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-calc set size:undefined disposed:false
+170 http fetch GET 200 https://registry.npmjs.org/mdn-data 121ms (cache miss)
+171 silly packumentCache full:https://registry.npmjs.org/mdn-data set size:undefined disposed:false
+172 http fetch GET 200 https://registry.npmjs.org/tr46 170ms (cache revalidated)
+173 silly packumentCache full:https://registry.npmjs.org/tr46 set size:47377 disposed:false
+174 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcss-color-parser 227ms (cache miss)
+175 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcss-color-parser set size:undefined disposed:false
+176 http fetch GET 200 https://registry.npmjs.org/tldts 318ms (cache miss)
+177 silly packumentCache full:https://registry.npmjs.org/tldts set size:undefined disposed:false
+178 silly placeDep ROOT @csstools/css-calc@3.4.1 OK for: @asamuzakjp/css-color@7.1.2 want: ^3.4.1
+179 silly placeDep ROOT @csstools/css-tokenizer@4.0.2 OK for: @csstools/css-calc@3.4.1 want: ^4.0.2
+180 silly placeDep ROOT @csstools/css-parser-algorithms@4.0.1 OK for: @csstools/css-calc@3.4.1 want: ^4.0.1
+181 silly placeDep ROOT @csstools/css-color-parser@4.2.4 OK for: @asamuzakjp/css-color@7.1.2 want: ^4.2.4
+182 silly placeDep node_modules/@asamuzakjp/css-color lru-cache@11.5.3 OK for: @asamuzakjp/css-color@7.1.2 want: ^11.5.3
+183 silly fetch manifest @csstools/color-helpers@^6.1.2
+184 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcolor-helpers cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/@csstools%2fcolor-helpers 68ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/@csstools%2fcolor-helpers set size:undefined disposed:false
+187 silly placeDep ROOT bidi-js@1.1.0 OK for: @asamuzakjp/dom-selector@9.2.2 want: ^1.1.0
+188 silly placeDep node_modules/@asamuzakjp/dom-selector lru-cache@11.5.3 OK for: @asamuzakjp/dom-selector@9.2.2 want: ^11.5.3
+189 silly fetch manifest require-from-string@^2.0.2
+190 silly packumentCache full:https://registry.npmjs.org/require-from-string cache-miss
+191 http fetch GET 200 https://registry.npmjs.org/require-from-string 49ms (cache miss)
+192 silly packumentCache full:https://registry.npmjs.org/require-from-string set size:undefined disposed:false
+193 silly placeDep ROOT @csstools/color-helpers@6.1.2 OK for: @csstools/css-color-parser@4.2.4 want: ^6.1.2
+194 silly placeDep ROOT require-from-string@2.0.2 OK for: bidi-js@1.1.0 want: ^2.0.2
+195 silly placeDep ROOT mdn-data@2.27.1 OK for: css-tree@3.2.1 want: 2.27.1
+196 silly placeDep node_modules/data-urls whatwg-url@16.0.1 OK for: data-urls@7.0.0 want: ^16.0.0
+197 silly placeDep ROOT entities@8.1.0 OK for: parse5@8.0.1 want: ^8.0.0
+198 silly placeDep ROOT xmlchars@2.2.0 OK for: saxes@6.0.0 want: ^2.2.0
+199 silly placeDep ROOT tldts@7.4.16 OK for: tough-cookie@6.0.2 want: ^7.0.5
+200 silly fetch manifest tldts-core@^7.4.16
+201 silly packumentCache full:https://registry.npmjs.org/tldts-core cache-miss
+202 http fetch GET 200 https://registry.npmjs.org/tldts-core 311ms (cache miss)
+203 silly packumentCache full:https://registry.npmjs.org/tldts-core set size:undefined disposed:false
+204 silly placeDep ROOT tldts-core@7.4.16 OK for: tldts@7.4.16 want: ^7.4.16
+205 silly placeDep node_modules/data-urls tr46@6.0.0 OK for: whatwg-url@16.0.1 want: ^6.0.0
+206 silly placeDep node_modules/data-urls webidl-conversions@8.0.1 OK for: whatwg-url@16.0.1 want: ^8.0.1
+207 silly placeDep node_modules/jsdom tr46@6.0.0 OK for: whatwg-url@17.1.2 want: ^6.0.0
+208 silly reify moves {}
+209 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-win32-x64-msvc
+210 silly reify mark deleted [
+210 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+210 silly reify ]
+211 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+212 silly reify mark deleted [
+212 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+212 silly reify ]
+213 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+214 silly reify mark deleted [
+214 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+214 silly reify ]
+215 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-wasm32-wasi
+216 silly reify mark deleted [
+216 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-wasm32-wasi'
+216 silly reify ]
+217 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@emnapi/core
+218 silly reify mark deleted [
+218 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@emnapi/core'
+218 silly reify ]
+219 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-wasm32-wasi/node_modules/@emnapi/runtime
+220 silly reify mark deleted [
+220 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-wasm32-wasi/node_modules/@emnapi/runtime'
+220 silly reify ]
+221 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@napi-rs/wasm-runtime
+222 silly reify mark deleted [
+222 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@napi-rs/wasm-runtime'
+222 silly reify ]
+223 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@emnapi/wasi-threads
+224 silly reify mark deleted [
+224 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@emnapi/wasi-threads'
+224 silly reify ]
+225 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@tybys/wasm-util
+226 silly reify mark deleted [
+226 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@tybys/wasm-util'
+226 silly reify ]
+227 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-openharmony-arm64
+228 silly reify mark deleted [
+228 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-openharmony-arm64'
+228 silly reify ]
+229 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-x64-musl
+230 silly reify mark deleted [
+230 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-x64-musl'
+230 silly reify ]
+231 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-x64-gnu
+232 silly reify mark deleted [
+232 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+232 silly reify ]
+233 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+234 silly reify mark deleted [
+234 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+234 silly reify ]
+235 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+236 silly reify mark deleted [
+236 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+236 silly reify ]
+237 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+238 silly reify mark deleted [
+238 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+238 silly reify ]
+239 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+240 silly reify mark deleted [
+240 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+240 silly reify ]
+241 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-loong64-musl
+242 silly reify mark deleted [
+242 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-loong64-musl'
+242 silly reify ]
+243 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-loong64-gnu
+244 silly reify mark deleted [
+244 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-loong64-gnu'
+244 silly reify ]
+245 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-arm64-musl
+246 silly reify mark deleted [
+246 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+246 silly reify ]
+247 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+248 silly reify mark deleted [
+248 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+248 silly reify ]
+249 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+250 silly reify mark deleted [
+250 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+250 silly reify ]
+251 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+252 silly reify mark deleted [
+252 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+252 silly reify ]
+253 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-freebsd-x64
+254 silly reify mark deleted [
+254 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-freebsd-x64'
+254 silly reify ]
+255 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-darwin-x64
+256 silly reify mark deleted [
+256 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-darwin-x64'
+256 silly reify ]
+257 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-android-arm64
+258 silly reify mark deleted [
+258 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-android-arm64'
+258 silly reify ]
+259 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-android-arm-eabi
+260 silly reify mark deleted [
+260 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@unrs/resolver-binding-android-arm-eabi'
+260 silly reify ]
+261 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-win32-x64-msvc
+262 silly reify mark deleted [
+262 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-win32-x64-msvc'
+262 silly reify ]
+263 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-win32-x64-gnu
+264 silly reify mark deleted [
+264 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-win32-x64-gnu'
+264 silly reify ]
+265 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-win32-ia32-msvc
+266 silly reify mark deleted [
+266 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-win32-ia32-msvc'
+266 silly reify ]
+267 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-win32-arm64-msvc
+268 silly reify mark deleted [
+268 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-win32-arm64-msvc'
+268 silly reify ]
+269 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-openharmony-arm64
+270 silly reify mark deleted [
+270 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-openharmony-arm64'
+270 silly reify ]
+271 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-openbsd-x64
+272 silly reify mark deleted [
+272 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-openbsd-x64'
+272 silly reify ]
+273 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-x64-musl
+274 silly reify mark deleted [
+274 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-x64-musl'
+274 silly reify ]
+275 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-x64-gnu
+276 silly reify mark deleted [
+276 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-x64-gnu'
+276 silly reify ]
+277 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-s390x-gnu
+278 silly reify mark deleted [
+278 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-s390x-gnu'
+278 silly reify ]
+279 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-riscv64-musl
+280 silly reify mark deleted [
+280 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-riscv64-musl'
+280 silly reify ]
+281 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-riscv64-gnu
+282 silly reify mark deleted [
+282 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-riscv64-gnu'
+282 silly reify ]
+283 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-ppc64-musl
+284 silly reify mark deleted [
+284 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-ppc64-musl'
+284 silly reify ]
+285 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-ppc64-gnu
+286 silly reify mark deleted [
+286 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-ppc64-gnu'
+286 silly reify ]
+287 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-loong64-musl
+288 silly reify mark deleted [
+288 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-loong64-musl'
+288 silly reify ]
+289 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-loong64-gnu
+290 silly reify mark deleted [
+290 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-loong64-gnu'
+290 silly reify ]
+291 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-arm64-musl
+292 silly reify mark deleted [
+292 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-arm64-musl'
+292 silly reify ]
+293 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-arm64-gnu
+294 silly reify mark deleted [
+294 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-arm64-gnu'
+294 silly reify ]
+295 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-arm-musleabihf
+296 silly reify mark deleted [
+296 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-arm-musleabihf'
+296 silly reify ]
+297 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-arm-gnueabihf
+298 silly reify mark deleted [
+298 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+298 silly reify ]
+299 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-freebsd-x64
+300 silly reify mark deleted [
+300 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-freebsd-x64'
+300 silly reify ]
+301 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-freebsd-arm64
+302 silly reify mark deleted [
+302 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-freebsd-arm64'
+302 silly reify ]
+303 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-darwin-x64
+304 silly reify mark deleted [
+304 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-darwin-x64'
+304 silly reify ]
+305 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-android-arm64
+306 silly reify mark deleted [
+306 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-android-arm64'
+306 silly reify ]
+307 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-android-arm-eabi
+308 silly reify mark deleted [
+308 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@rollup/rollup-android-arm-eabi'
+308 silly reify ]
+309 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-win32-x64-msvc
+310 silly reify mark deleted [
+310 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-win32-x64-msvc'
+310 silly reify ]
+311 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-win32-arm64-msvc
+312 silly reify mark deleted [
+312 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-win32-arm64-msvc'
+312 silly reify ]
+313 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-linux-x64-musl
+314 silly reify mark deleted [
+314 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-linux-x64-musl'
+314 silly reify ]
+315 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-linux-x64-gnu
+316 silly reify mark deleted [
+316 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-linux-x64-gnu'
+316 silly reify ]
+317 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-linux-arm64-musl
+318 silly reify mark deleted [
+318 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-linux-arm64-musl'
+318 silly reify ]
+319 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-linux-arm64-gnu
+320 silly reify mark deleted [
+320 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-linux-arm64-gnu'
+320 silly reify ]
+321 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-darwin-x64
+322 silly reify mark deleted [
+322 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@next/swc-darwin-x64'
+322 silly reify ]
+323 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@napi-rs/lzma-linux-x64-gnu
+324 silly reify mark deleted [
+324 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@napi-rs/lzma-linux-x64-gnu'
+324 silly reify ]
+325 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-win32-x64
+326 silly reify mark deleted [
+326 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-win32-x64'
+326 silly reify ]
+327 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-win32-ia32
+328 silly reify mark deleted [
+328 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-win32-ia32'
+328 silly reify ]
+329 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-win32-arm64
+330 silly reify mark deleted [
+330 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-win32-arm64'
+330 silly reify ]
+331 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-webcontainers-wasm32
+332 silly reify mark deleted [
+332 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-webcontainers-wasm32'
+332 silly reify ]
+333 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linuxmusl-x64
+334 silly reify mark deleted [
+334 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linuxmusl-x64'
+334 silly reify ]
+335 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linuxmusl-arm64
+336 silly reify mark deleted [
+336 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linuxmusl-arm64'
+336 silly reify ]
+337 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-x64
+338 silly reify mark deleted [
+338 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-x64'
+338 silly reify ]
+339 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-s390x
+340 silly reify mark deleted [
+340 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-s390x'
+340 silly reify ]
+341 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-riscv64
+342 silly reify mark deleted [
+342 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-riscv64'
+342 silly reify ]
+343 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-ppc64
+344 silly reify mark deleted [
+344 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-ppc64'
+344 silly reify ]
+345 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-arm64
+346 silly reify mark deleted [
+346 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-arm64'
+346 silly reify ]
+347 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-arm
+348 silly reify mark deleted [
+348 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-linux-arm'
+348 silly reify ]
+349 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linuxmusl-x64
+350 silly reify mark deleted [
+350 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linuxmusl-x64'
+350 silly reify ]
+351 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linuxmusl-arm64
+352 silly reify mark deleted [
+352 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+352 silly reify ]
+353 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-x64
+354 silly reify mark deleted [
+354 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-x64'
+354 silly reify ]
+355 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-s390x
+356 silly reify mark deleted [
+356 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-s390x'
+356 silly reify ]
+357 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-riscv64
+358 silly reify mark deleted [
+358 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-riscv64'
+358 silly reify ]
+359 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-ppc64
+360 silly reify mark deleted [
+360 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-ppc64'
+360 silly reify ]
+361 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-arm64
+362 silly reify mark deleted [
+362 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-arm64'
+362 silly reify ]
+363 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-arm
+364 silly reify mark deleted [
+364 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-linux-arm'
+364 silly reify ]
+365 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-darwin-x64
+366 silly reify mark deleted [
+366 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-libvips-darwin-x64'
+366 silly reify ]
+367 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-freebsd-wasm32
+368 silly reify mark deleted [
+368 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-freebsd-wasm32'
+368 silly reify ]
+369 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-darwin-x64
+370 silly reify mark deleted [
+370 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@img/sharp-darwin-x64'
+370 silly reify ]
+371 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/win32-x64
+372 silly reify mark deleted [
+372 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/win32-x64'
+372 silly reify ]
+373 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/win32-ia32
+374 silly reify mark deleted [
+374 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/win32-ia32'
+374 silly reify ]
+375 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/win32-arm64
+376 silly reify mark deleted [
+376 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/win32-arm64'
+376 silly reify ]
+377 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/sunos-x64
+378 silly reify mark deleted [
+378 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/sunos-x64'
+378 silly reify ]
+379 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/openharmony-arm64
+380 silly reify mark deleted [
+380 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/openharmony-arm64'
+380 silly reify ]
+381 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/openbsd-x64
+382 silly reify mark deleted [
+382 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/openbsd-x64'
+382 silly reify ]
+383 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/openbsd-arm64
+384 silly reify mark deleted [
+384 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/openbsd-arm64'
+384 silly reify ]
+385 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/netbsd-x64
+386 silly reify mark deleted [
+386 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/netbsd-x64'
+386 silly reify ]
+387 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/netbsd-arm64
+388 silly reify mark deleted [
+388 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/netbsd-arm64'
+388 silly reify ]
+389 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-x64
+390 silly reify mark deleted [
+390 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-x64'
+390 silly reify ]
+391 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-s390x
+392 silly reify mark deleted [
+392 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-s390x'
+392 silly reify ]
+393 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-riscv64
+394 silly reify mark deleted [
+394 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-riscv64'
+394 silly reify ]
+395 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-ppc64
+396 silly reify mark deleted [
+396 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-ppc64'
+396 silly reify ]
+397 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-mips64el
+398 silly reify mark deleted [
+398 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-mips64el'
+398 silly reify ]
+399 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-loong64
+400 silly reify mark deleted [
+400 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-loong64'
+400 silly reify ]
+401 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-ia32
+402 silly reify mark deleted [
+402 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-ia32'
+402 silly reify ]
+403 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-arm64
+404 silly reify mark deleted [
+404 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-arm64'
+404 silly reify ]
+405 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-arm
+406 silly reify mark deleted [
+406 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/linux-arm'
+406 silly reify ]
+407 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/freebsd-x64
+408 silly reify mark deleted [
+408 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/freebsd-x64'
+408 silly reify ]
+409 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/freebsd-arm64
+410 silly reify mark deleted [
+410 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/freebsd-arm64'
+410 silly reify ]
+411 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/darwin-x64
+412 silly reify mark deleted [
+412 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/darwin-x64'
+412 silly reify ]
+413 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/android-x64
+414 silly reify mark deleted [
+414 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/android-x64'
+414 silly reify ]
+415 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/android-arm64
+416 silly reify mark deleted [
+416 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/android-arm64'
+416 silly reify ]
+417 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/android-arm
+418 silly reify mark deleted [
+418 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/android-arm'
+418 silly reify ]
+419 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/aix-ppc64
+420 silly reify mark deleted [
+420 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/@esbuild/aix-ppc64'
+420 silly reify ]
+421 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/win32-x64
+422 silly reify mark deleted [
+422 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/win32-x64'
+422 silly reify ]
+423 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/win32-ia32
+424 silly reify mark deleted [
+424 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/win32-ia32'
+424 silly reify ]
+425 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/win32-arm64
+426 silly reify mark deleted [
+426 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/win32-arm64'
+426 silly reify ]
+427 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/sunos-x64
+428 silly reify mark deleted [
+428 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/sunos-x64'
+428 silly reify ]
+429 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/openbsd-x64
+430 silly reify mark deleted [
+430 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/openbsd-x64'
+430 silly reify ]
+431 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/netbsd-x64
+432 silly reify mark deleted [
+432 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/netbsd-x64'
+432 silly reify ]
+433 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-x64
+434 silly reify mark deleted [
+434 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-x64'
+434 silly reify ]
+435 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-s390x
+436 silly reify mark deleted [
+436 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-s390x'
+436 silly reify ]
+437 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-riscv64
+438 silly reify mark deleted [
+438 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-riscv64'
+438 silly reify ]
+439 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-ppc64
+440 silly reify mark deleted [
+440 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-ppc64'
+440 silly reify ]
+441 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-mips64el
+442 silly reify mark deleted [
+442 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-mips64el'
+442 silly reify ]
+443 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-loong64
+444 silly reify mark deleted [
+444 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-loong64'
+444 silly reify ]
+445 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-ia32
+446 silly reify mark deleted [
+446 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-ia32'
+446 silly reify ]
+447 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-arm64
+448 silly reify mark deleted [
+448 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-arm64'
+448 silly reify ]
+449 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-arm
+450 silly reify mark deleted [
+450 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/linux-arm'
+450 silly reify ]
+451 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/freebsd-x64
+452 silly reify mark deleted [
+452 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/freebsd-x64'
+452 silly reify ]
+453 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/freebsd-arm64
+454 silly reify mark deleted [
+454 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/freebsd-arm64'
+454 silly reify ]
+455 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/darwin-x64
+456 silly reify mark deleted [
+456 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/darwin-x64'
+456 silly reify ]
+457 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/android-x64
+458 silly reify mark deleted [
+458 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/android-x64'
+458 silly reify ]
+459 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/android-arm64
+460 silly reify mark deleted [
+460 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/android-arm64'
+460 silly reify ]
+461 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/android-arm
+462 silly reify mark deleted [
+462 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/android-arm'
+462 silly reify ]
+463 verbose reify failed optional dependency /Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/aix-ppc64
+464 silly reify mark deleted [
+464 silly reify   '/Users/angelomadara/Github/whitelabel-keep/node_modules/tsx/node_modules/@esbuild/aix-ppc64'
+464 silly reify ]
+465 http cache entities@https://registry.npmjs.org/entities/-/entities-8.1.0.tgz 0ms (cache hit)
+466 http cache tldts-core@https://registry.npmjs.org/tldts-core/-/tldts-core-7.4.16.tgz 0ms (cache hit)
+467 http cache tldts@https://registry.npmjs.org/tldts/-/tldts-7.4.16.tgz 0ms (cache hit)
+468 http cache mdn-data@https://registry.npmjs.org/mdn-data/-/mdn-data-2.27.1.tgz 0ms (cache hit)
+469 http cache require-from-string@https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz 0ms (cache hit)
+470 http cache xmlchars@https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz 0ms (cache hit)
+471 http cache @csstools/color-helpers@https://registry.npmjs.org/@csstools/color-helpers/-/color-helpers-6.1.2.tgz 0ms (cache hit)
+472 http cache @csstools/css-tokenizer@https://registry.npmjs.org/@csstools/css-tokenizer/-/css-tokenizer-4.0.2.tgz 0ms (cache hit)
+473 http cache @csstools/css-color-parser@https://registry.npmjs.org/@csstools/css-color-parser/-/css-color-parser-4.2.4.tgz 0ms (cache hit)
+474 http cache bidi-js@https://registry.npmjs.org/bidi-js/-/bidi-js-1.1.0.tgz 0ms (cache hit)
+475 http cache @csstools/css-parser-algorithms@https://registry.npmjs.org/@csstools/css-parser-algorithms/-/css-parser-algorithms-4.0.1.tgz 0ms (cache hit)
+476 http cache xml-name-validator@https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-5.0.0.tgz 0ms (cache hit)
+477 http cache @csstools/css-calc@https://registry.npmjs.org/@csstools/css-calc/-/css-calc-3.4.1.tgz 0ms (cache hit)
+478 http cache whatwg-mimetype@https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-5.0.0.tgz 0ms (cache hit)
+479 http cache tough-cookie@https://registry.npmjs.org/tough-cookie/-/tough-cookie-6.0.2.tgz 0ms (cache hit)
+480 http cache undici@https://registry.npmjs.org/undici/-/undici-8.11.2.tgz 0ms (cache hit)
+481 http cache saxes@https://registry.npmjs.org/saxes/-/saxes-6.0.0.tgz 0ms (cache hit)
+482 http cache parse5@https://registry.npmjs.org/parse5/-/parse5-8.0.1.tgz 0ms (cache hit)
+483 http cache decimal.js@https://registry.npmjs.org/decimal.js/-/decimal.js-10.6.0.tgz 0ms (cache hit)
+484 http cache css-tree@https://registry.npmjs.org/css-tree/-/css-tree-3.2.1.tgz 0ms (cache hit)
+485 http cache @exodus/bytes@https://registry.npmjs.org/@exodus/bytes/-/bytes-1.16.0.tgz 0ms (cache hit)
+486 http cache is-potential-custom-element-name@https://registry.npmjs.org/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz 0ms (cache hit)
+487 http cache data-urls@https://registry.npmjs.org/data-urls/-/data-urls-7.0.0.tgz 0ms (cache hit)
+488 http cache @bramus/specificity@https://registry.npmjs.org/@bramus/specificity/-/specificity-2.4.2.tgz 0ms (cache hit)
+489 http cache @asamuzakjp/dom-selector@https://registry.npmjs.org/@asamuzakjp/dom-selector/-/dom-selector-9.2.2.tgz 0ms (cache hit)
+490 http cache w3c-xmlserializer@https://registry.npmjs.org/w3c-xmlserializer/-/w3c-xmlserializer-6.0.0.tgz 0ms (cache hit)
+491 http cache jsdom@https://registry.npmjs.org/jsdom/-/jsdom-30.1.1.tgz 0ms (cache hit)
+492 http cache @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.4.tgz 0ms (cache hit)
+493 http cache @csstools/css-syntax-patches-for-csstree@https://registry.npmjs.org/@csstools/css-syntax-patches-for-csstree/-/css-syntax-patches-for-csstree-1.1.14.tgz 0ms (cache hit)
+494 http cache @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.2.4.tgz 0ms (cache hit)
+495 http cache @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz 0ms (cache hit)
+496 http cache webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-8.0.1.tgz 0ms (cache hit)
+497 http cache @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz 0ms (cache hit)
+498 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz 0ms (cache hit)
+499 http cache tr46@https://registry.npmjs.org/tr46/-/tr46-6.0.0.tgz 0ms (cache hit)
+500 http cache html-encoding-sniffer@https://registry.npmjs.org/html-encoding-sniffer/-/html-encoding-sniffer-7.0.0.tgz 0ms (cache hit)
+501 http cache tr46@https://registry.npmjs.org/tr46/-/tr46-6.0.0.tgz 0ms (cache hit)
+502 http cache @asamuzakjp/css-color@https://registry.npmjs.org/@asamuzakjp/css-color/-/css-color-7.1.2.tgz 0ms (cache hit)
+503 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz 0ms (cache hit)
+504 http cache whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-17.1.2.tgz 0ms (cache hit)
+505 http cache webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-8.0.1.tgz 0ms (cache hit)
+506 http cache whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-16.0.1.tgz 0ms (cache hit)
+507 http cache lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz 0ms (cache hit)
+508 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 0ms (cache hit)
+509 silly tarball no local data for tldts@https://registry.npmjs.org/tldts/-/tldts-7.4.16.tgz. Extracting by manifest.
+510 silly tarball no local data for tldts-core@https://registry.npmjs.org/tldts-core/-/tldts-core-7.4.16.tgz. Extracting by manifest.
+511 silly tarball no local data for entities@https://registry.npmjs.org/entities/-/entities-8.1.0.tgz. Extracting by manifest.
+512 silly tarball no local data for require-from-string@https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz. Extracting by manifest.
+513 silly tarball no local data for mdn-data@https://registry.npmjs.org/mdn-data/-/mdn-data-2.27.1.tgz. Extracting by manifest.
+514 silly tarball no local data for @csstools/css-color-parser@https://registry.npmjs.org/@csstools/css-color-parser/-/css-color-parser-4.2.4.tgz. Extracting by manifest.
+515 silly tarball no local data for xmlchars@https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz. Extracting by manifest.
+516 silly tarball no local data for @csstools/color-helpers@https://registry.npmjs.org/@csstools/color-helpers/-/color-helpers-6.1.2.tgz. Extracting by manifest.
+517 silly tarball no local data for @csstools/css-tokenizer@https://registry.npmjs.org/@csstools/css-tokenizer/-/css-tokenizer-4.0.2.tgz. Extracting by manifest.
+518 silly tarball no local data for xml-name-validator@https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-5.0.0.tgz. Extracting by manifest.
+519 silly tarball no local data for bidi-js@https://registry.npmjs.org/bidi-js/-/bidi-js-1.1.0.tgz. Extracting by manifest.
+520 silly tarball no local data for @csstools/css-parser-algorithms@https://registry.npmjs.org/@csstools/css-parser-algorithms/-/css-parser-algorithms-4.0.1.tgz. Extracting by manifest.
+521 silly tarball no local data for @csstools/css-calc@https://registry.npmjs.org/@csstools/css-calc/-/css-calc-3.4.1.tgz. Extracting by manifest.
+522 silly tarball no local data for whatwg-mimetype@https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-5.0.0.tgz. Extracting by manifest.
+523 silly tarball no local data for tough-cookie@https://registry.npmjs.org/tough-cookie/-/tough-cookie-6.0.2.tgz. Extracting by manifest.
+524 silly tarball no local data for undici@https://registry.npmjs.org/undici/-/undici-8.11.2.tgz. Extracting by manifest.
+525 silly tarball no local data for saxes@https://registry.npmjs.org/saxes/-/saxes-6.0.0.tgz. Extracting by manifest.
+526 silly tarball no local data for decimal.js@https://registry.npmjs.org/decimal.js/-/decimal.js-10.6.0.tgz. Extracting by manifest.
+527 silly tarball no local data for @exodus/bytes@https://registry.npmjs.org/@exodus/bytes/-/bytes-1.16.0.tgz. Extracting by manifest.
+528 silly tarball no local data for parse5@https://registry.npmjs.org/parse5/-/parse5-8.0.1.tgz. Extracting by manifest.
+529 silly tarball no local data for css-tree@https://registry.npmjs.org/css-tree/-/css-tree-3.2.1.tgz. Extracting by manifest.
+530 silly tarball no local data for @asamuzakjp/dom-selector@https://registry.npmjs.org/@asamuzakjp/dom-selector/-/dom-selector-9.2.2.tgz. Extracting by manifest.
+531 silly tarball no local data for is-potential-custom-element-name@https://registry.npmjs.org/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz. Extracting by manifest.
+532 silly tarball no local data for data-urls@https://registry.npmjs.org/data-urls/-/data-urls-7.0.0.tgz. Extracting by manifest.
+533 silly tarball no local data for @bramus/specificity@https://registry.npmjs.org/@bramus/specificity/-/specificity-2.4.2.tgz. Extracting by manifest.
+534 silly tarball no local data for w3c-xmlserializer@https://registry.npmjs.org/w3c-xmlserializer/-/w3c-xmlserializer-6.0.0.tgz. Extracting by manifest.
+535 silly tarball no local data for @csstools/css-syntax-patches-for-csstree@https://registry.npmjs.org/@csstools/css-syntax-patches-for-csstree/-/css-syntax-patches-for-csstree-1.1.14.tgz. Extracting by manifest.
+536 silly tarball no local data for jsdom@https://registry.npmjs.org/jsdom/-/jsdom-30.1.1.tgz. Extracting by manifest.
+537 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-6.0.0.tgz. Extracting by manifest.
+538 silly tarball no local data for webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-8.0.1.tgz. Extracting by manifest.
+539 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-6.0.0.tgz. Extracting by manifest.
+540 silly tarball no local data for html-encoding-sniffer@https://registry.npmjs.org/html-encoding-sniffer/-/html-encoding-sniffer-7.0.0.tgz. Extracting by manifest.
+541 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz. Extracting by manifest.
+542 silly tarball no local data for webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-8.0.1.tgz. Extracting by manifest.
+543 silly tarball no local data for @asamuzakjp/css-color@https://registry.npmjs.org/@asamuzakjp/css-color/-/css-color-7.1.2.tgz. Extracting by manifest.
+544 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz. Extracting by manifest.
+545 silly tarball no local data for whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-17.1.2.tgz. Extracting by manifest.
+546 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz. Extracting by manifest.
+547 silly tarball no local data for whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-16.0.1.tgz. Extracting by manifest.
+548 http fetch GET 200 https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz 72ms (cache miss)
+549 http fetch GET 200 https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz 72ms (cache miss)
+550 http fetch GET 200 https://registry.npmjs.org/@csstools/css-tokenizer/-/css-tokenizer-4.0.2.tgz 83ms (cache miss)
+551 http fetch GET 200 https://registry.npmjs.org/@csstools/css-color-parser/-/css-color-parser-4.2.4.tgz 92ms (cache miss)
+552 http fetch GET 200 https://registry.npmjs.org/@csstools/color-helpers/-/color-helpers-6.1.2.tgz 93ms (cache miss)
+553 http fetch GET 200 https://registry.npmjs.org/saxes/-/saxes-6.0.0.tgz 132ms (cache miss)
+554 http fetch GET 200 https://registry.npmjs.org/entities/-/entities-8.1.0.tgz 134ms (cache miss)
+555 http fetch GET 200 https://registry.npmjs.org/tldts-core/-/tldts-core-7.4.16.tgz 164ms (cache miss)
+556 http fetch GET 200 https://registry.npmjs.org/decimal.js/-/decimal.js-10.6.0.tgz 205ms (cache miss)
+557 http fetch GET 200 https://registry.npmjs.org/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz 206ms (cache miss)
+558 http fetch GET 200 https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-5.0.0.tgz 209ms (cache miss)
+559 http fetch GET 200 https://registry.npmjs.org/parse5/-/parse5-8.0.1.tgz 209ms (cache miss)
+560 http fetch GET 200 https://registry.npmjs.org/mdn-data/-/mdn-data-2.27.1.tgz 211ms (cache miss)
+561 http fetch GET 200 https://registry.npmjs.org/@exodus/bytes/-/bytes-1.16.0.tgz 215ms (cache miss)
+562 http fetch GET 200 https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-5.0.0.tgz 298ms (cache miss)
+563 http fetch GET 200 https://registry.npmjs.org/@csstools/css-calc/-/css-calc-3.4.1.tgz 298ms (cache miss)
+564 http fetch GET 200 https://registry.npmjs.org/@csstools/css-parser-algorithms/-/css-parser-algorithms-4.0.1.tgz 299ms (cache miss)
+565 http fetch GET 200 https://registry.npmjs.org/w3c-xmlserializer/-/w3c-xmlserializer-6.0.0.tgz 299ms (cache miss)
+566 http fetch GET 200 https://registry.npmjs.org/data-urls/-/data-urls-7.0.0.tgz 299ms (cache miss)
+567 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-6.0.0.tgz 301ms (cache miss)
+568 http fetch GET 200 https://registry.npmjs.org/@asamuzakjp/dom-selector/-/dom-selector-9.2.2.tgz 318ms (cache miss)
+569 http fetch GET 200 https://registry.npmjs.org/@bramus/specificity/-/specificity-2.4.2.tgz 348ms (cache miss)
+570 http fetch GET 200 https://registry.npmjs.org/undici/-/undici-8.11.2.tgz 352ms (cache miss)
+571 http fetch GET 200 https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-8.0.1.tgz 456ms (cache miss)
+572 http fetch GET 200 https://registry.npmjs.org/@csstools/css-syntax-patches-for-csstree/-/css-syntax-patches-for-csstree-1.1.14.tgz 457ms (cache miss)
+573 http fetch GET 200 https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-8.0.1.tgz 456ms (cache miss)
+574 http fetch GET 200 https://registry.npmjs.org/html-encoding-sniffer/-/html-encoding-sniffer-7.0.0.tgz 457ms (cache miss)
+575 http fetch GET 200 https://registry.npmjs.org/bidi-js/-/bidi-js-1.1.0.tgz 497ms (cache miss)
+576 http fetch GET 200 https://registry.npmjs.org/css-tree/-/css-tree-3.2.1.tgz 497ms (cache miss)
+577 http fetch GET 200 https://registry.npmjs.org/whatwg-url/-/whatwg-url-16.0.1.tgz 510ms (cache miss)
+578 http fetch GET 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-6.0.2.tgz 583ms (cache miss)
+579 http fetch GET 200 https://registry.npmjs.org/whatwg-url/-/whatwg-url-17.1.2.tgz 606ms (cache miss)
+580 http fetch GET 200 https://registry.npmjs.org/tldts/-/tldts-7.4.16.tgz 631ms (cache miss)
+581 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz 655ms (cache miss)
+582 http fetch GET 200 https://registry.npmjs.org/jsdom/-/jsdom-30.1.1.tgz 684ms (cache miss)
+583 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz 706ms (cache miss)
+584 http fetch GET 200 https://registry.npmjs.org/@asamuzakjp/css-color/-/css-color-7.1.2.tgz 721ms (cache miss)
+585 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-6.0.0.tgz 852ms (cache miss)
+586 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz 1322ms (cache miss)
+587 silly ADD node_modules/tldts-core
+588 silly ADD node_modules/tldts
+589 silly ADD node_modules/xmlchars
+590 silly ADD node_modules/entities
+591 silly ADD node_modules/mdn-data
+592 silly ADD node_modules/require-from-string
+593 silly ADD node_modules/@csstools/color-helpers
+594 silly ADD node_modules/bidi-js
+595 silly ADD node_modules/@csstools/css-color-parser
+596 silly ADD node_modules/@csstools/css-parser-algorithms
+597 silly ADD node_modules/@csstools/css-tokenizer
+598 silly ADD node_modules/@csstools/css-calc
+599 silly ADD node_modules/xml-name-validator
+600 silly ADD node_modules/whatwg-mimetype
+601 silly ADD node_modules/w3c-xmlserializer
+602 silly ADD node_modules/undici
+603 silly ADD node_modules/tough-cookie
+604 silly ADD node_modules/saxes
+605 silly ADD node_modules/parse5
+606 silly ADD node_modules/is-potential-custom-element-name
+607 silly ADD node_modules/html-encoding-sniffer
+608 silly ADD node_modules/decimal.js
+609 silly ADD node_modules/data-urls
+610 silly ADD node_modules/data-urls/node_modules/webidl-conversions
+611 silly ADD node_modules/data-urls/node_modules/tr46
+612 silly ADD node_modules/data-urls/node_modules/whatwg-url
+613 silly ADD node_modules/css-tree
+614 silly ADD node_modules/@exodus/bytes
+615 silly ADD node_modules/@csstools/css-syntax-patches-for-csstree
+616 silly ADD node_modules/@bramus/specificity
+617 silly ADD node_modules/@asamuzakjp/dom-selector
+618 silly ADD node_modules/@asamuzakjp/dom-selector/node_modules/lru-cache
+619 silly ADD node_modules/@asamuzakjp/css-color
+620 silly ADD node_modules/@asamuzakjp/css-color/node_modules/lru-cache
+621 silly ADD node_modules/jsdom
+622 silly ADD node_modules/jsdom/node_modules/tr46
+623 silly ADD node_modules/jsdom/node_modules/whatwg-url
+624 silly ADD node_modules/jsdom/node_modules/webidl-conversions
+625 silly ADD node_modules/jsdom/node_modules/lru-cache
+626 silly ADD
+627 silly ADD
+628 silly ADD
+629 silly ADD
+630 silly ADD node_modules/@emnapi/runtime
+631 silly ADD
+632 silly ADD
+633 silly ADD
+634 silly ADD
+635 silly ADD
+636 silly ADD
+637 silly ADD
+638 silly ADD
+639 silly ADD
+640 silly ADD
+641 silly ADD
+642 silly ADD
+643 silly ADD
+644 silly ADD
+645 silly ADD
+646 silly ADD
+647 silly ADD
+648 silly ADD
+649 silly ADD
+650 silly ADD
+651 silly ADD
+652 silly ADD
+653 silly ADD
+654 silly ADD
+655 silly ADD
+656 silly ADD
+657 silly ADD
+658 silly ADD
+659 silly ADD
+660 silly ADD
+661 silly ADD
+662 silly ADD
+663 silly ADD
+664 silly ADD
+665 silly ADD
+666 silly ADD
+667 silly ADD
+668 silly ADD
+669 silly ADD
+670 silly ADD
+671 silly ADD
+672 silly ADD
+673 silly ADD
+674 silly ADD
+675 silly ADD
+676 silly ADD
+677 silly ADD
+678 silly ADD
+679 silly ADD
+680 silly ADD
+681 silly ADD
+682 silly ADD
+683 silly ADD
+684 silly ADD
+685 silly ADD
+686 silly ADD
+687 silly ADD
+688 silly ADD
+689 silly ADD
+690 silly ADD
+691 silly ADD
+692 silly ADD
+693 silly ADD
+694 silly ADD
+695 silly ADD
+696 silly ADD
+697 silly ADD
+698 silly ADD
+699 silly ADD
+700 silly ADD
+701 silly ADD
+702 silly ADD
+703 silly ADD
+704 silly ADD
+705 silly ADD
+706 silly ADD
+707 silly ADD
+708 silly ADD
+709 silly ADD
+710 silly ADD
+711 silly ADD
+712 silly ADD
+713 silly ADD
+714 silly ADD
+715 silly ADD
+716 silly ADD
+717 silly ADD
+718 silly ADD
+719 silly ADD
+720 silly ADD
+721 silly ADD
+722 silly ADD
+723 silly ADD
+724 silly ADD
+725 silly ADD
+726 silly ADD
+727 silly ADD
+728 silly ADD
+729 silly ADD
+730 silly ADD
+731 silly ADD
+732 silly ADD
+733 silly ADD
+734 silly ADD
+735 silly ADD
+736 silly ADD
+737 silly ADD
+738 silly ADD
+739 silly ADD
+740 silly ADD
+741 silly ADD
+742 silly ADD
+743 silly ADD
+744 silly ADD
+745 silly ADD
+746 silly ADD
+747 silly ADD
+748 silly ADD
+749 silly ADD
+750 silly ADD
+751 silly ADD
+752 silly ADD
+753 silly ADD
+754 verbose cwd /Users/angelomadara/Github/whitelabel-keep
+755 verbose os Darwin 25.6.0
+756 verbose node v24.17.0
+757 verbose npm  v10.9.8
+758 verbose exit 0
+759 info ok

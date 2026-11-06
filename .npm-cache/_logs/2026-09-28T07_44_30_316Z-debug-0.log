@@ -1,0 +1,19 @@
+0 verbose cli /Applications/DSH Desktop.app/Contents/Frameworks/DSH Desktop Helper.app/Contents/MacOS/DSH Desktop Helper /Users/angelomadara/.local/bin/npm
+1 info using npm@10.9.8
+2 info using node@v24.17.0
+3 silly config load:file:/Users/angelomadara/.hermes/node/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/angelomadara/Github/whitelabel-keep/.npmrc
+5 silly config load:file:/Users/angelomadara/.npmrc
+6 silly config load:file:/Applications/DSH Desktop.app/Contents/Frameworks/DSH Desktop Helper.app/Contents/etc/npmrc
+7 verbose title npm view socket.io version
+8 verbose argv "view" "socket.io" "version" "--cache" "./.npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/angelomadara/Github/whitelabel-keep/.npm-cache/_logs/2026-09-28T07_44_30_316Z-
+10 verbose logfile /Users/angelomadara/Github/whitelabel-keep/.npm-cache/_logs/2026-09-28T07_44_30_316Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/socket.io 342ms (cache miss)
+13 verbose cwd /Users/angelomadara/Github/whitelabel-keep
+14 verbose os Darwin 25.6.0
+15 verbose node v24.17.0
+16 verbose npm  v10.9.8
+17 verbose exit 0
+18 info ok

@@ -1,0 +1,186 @@
+0 verbose cli /Applications/DSH Desktop.app/Contents/Frameworks/DSH Desktop Helper.app/Contents/MacOS/DSH Desktop Helper /Users/angelomadara/.local/bin/npm
+1 info using npm@10.9.8
+2 info using node@v24.17.0
+3 silly config load:file:/Users/angelomadara/.hermes/node/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/angelomadara/Github/whitelabel-keep/.npmrc
+5 silly config load:file:/Users/angelomadara/.npmrc
+6 silly config load:file:/Applications/DSH Desktop.app/Contents/Frameworks/DSH Desktop Helper.app/Contents/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "./.npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:/Users/angelomadara/Github/whitelabel-keep/.npm-cache/_logs/2026-09-28T07_46_55_818Z-
+10 verbose logfile /Users/angelomadara/Github/whitelabel-keep/.npm-cache/_logs/2026-09-28T07_46_55_818Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4395630592 maxSize:1098907648 maxEntrySize:549453824
+13 silly idealTree buildDeps
+14 silly fetch manifest react-qr-code@^2.0.12
+15 silly packumentCache full:https://registry.npmjs.org/react-qr-code cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/react-qr-code 338ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/react-qr-code set size:undefined disposed:false
+18 silly fetch manifest react@^18.3.1
+19 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react 64ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/react set size:7006748 disposed:false
+22 silly fetch manifest socket.io@^4.8.1
+23 silly packumentCache full:https://registry.npmjs.org/socket.io cache-miss
+24 http cache https://registry.npmjs.org/socket.io 5ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/socket.io set size:382121 disposed:false
+26 silly fetch manifest socket.io-client@^4.8.1
+27 silly packumentCache full:https://registry.npmjs.org/socket.io-client cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/socket.io-client 142ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/socket.io-client set size:undefined disposed:false
+30 silly fetch manifest tsx@^4.19.2
+31 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/tsx 86ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/tsx set size:undefined disposed:false
+34 silly placeDep ROOT react-qr-code@2.2.0 OK for: locker-kiosk@1.0.0 want: ^2.0.12
+35 silly placeDep ROOT socket.io@4.8.4 OK for: locker-kiosk@1.0.0 want: ^4.8.1
+36 silly placeDep ROOT socket.io-client@4.8.4 OK for: locker-kiosk@1.0.0 want: ^4.8.1
+37 silly placeDep ROOT tsx@4.23.15 OK for: locker-kiosk@1.0.0 want: ^4.19.2
+38 silly fetch manifest qrcode-generator@^2.0.4
+39 silly packumentCache full:https://registry.npmjs.org/qrcode-generator cache-miss
+40 silly fetch manifest cors@~2.8.5
+41 silly packumentCache full:https://registry.npmjs.org/cors cache-miss
+42 silly fetch manifest accepts@~1.3.4
+43 silly packumentCache full:https://registry.npmjs.org/accepts cache-miss
+44 silly fetch manifest engine.io@~6.6.0
+45 silly packumentCache full:https://registry.npmjs.org/engine.io cache-miss
+46 silly fetch manifest socket.io-parser@~4.2.4
+47 silly packumentCache full:https://registry.npmjs.org/socket.io-parser cache-miss
+48 silly fetch manifest socket.io-adapter@~2.5.2
+49 silly packumentCache full:https://registry.npmjs.org/socket.io-adapter cache-miss
+50 silly fetch manifest engine.io-client@~6.6.1
+51 silly packumentCache full:https://registry.npmjs.org/engine.io-client cache-miss
+52 silly fetch manifest socket.io-parser@~4.2.4
+53 silly packumentCache full:https://registry.npmjs.org/socket.io-parser cache-miss
+54 silly fetch manifest @socket.io/component-emitter@~3.1.0
+55 silly packumentCache full:https://registry.npmjs.org/@socket.io%2fcomponent-emitter cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/qrcode-generator 147ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/qrcode-generator set size:undefined disposed:false
+58 silly fetch manifest esbuild@~0.28.0
+59 silly packumentCache full:https://registry.npmjs.org/esbuild cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/esbuild 55ms (cache revalidated)
+61 silly packumentCache full:https://registry.npmjs.org/esbuild set size:1264676 disposed:false
+62 http fetch GET 200 https://registry.npmjs.org/accepts 335ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/accepts set size:undefined disposed:false
+64 http fetch GET 200 https://registry.npmjs.org/cors 342ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/cors set size:undefined disposed:false
+66 http fetch GET 200 https://registry.npmjs.org/@socket.io%2fcomponent-emitter 342ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/@socket.io%2fcomponent-emitter set size:undefined disposed:false
+68 http fetch GET 200 https://registry.npmjs.org/socket.io-adapter 351ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/socket.io-adapter set size:undefined disposed:false
+70 http fetch GET 200 https://registry.npmjs.org/socket.io-parser 369ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/socket.io-parser set size:undefined disposed:false
+72 http fetch GET 200 https://registry.npmjs.org/socket.io-parser 374ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/socket.io-parser set size:undefined disposed:false
+74 http fetch GET 200 https://registry.npmjs.org/engine.io 414ms (cache miss)
+75 silly packumentCache full:https://registry.npmjs.org/engine.io set size:undefined disposed:false
+76 http fetch GET 200 https://registry.npmjs.org/engine.io-client 416ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/engine.io-client set size:undefined disposed:false
+78 silly fetch manifest @testing-library/dom@^10.0.0
+79 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fdom cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fdom 240ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/@testing-library%2fdom set size:undefined disposed:false
+82 silly placeDep ROOT @testing-library/dom@10.4.2 OK for: @testing-library/react@16.3.3 want: ^10.0.0
+83 silly fetch manifest lz-string@^1.5.0
+84 silly packumentCache full:https://registry.npmjs.org/lz-string cache-miss
+85 silly fetch manifest aria-query@5.3.0
+86 silly packumentCache full:https://registry.npmjs.org/aria-query cache-miss
+87 silly fetch manifest pretty-format@^27.0.2
+88 silly packumentCache full:https://registry.npmjs.org/pretty-format cache-miss
+89 silly fetch manifest @types/aria-query@^5.0.1
+90 silly packumentCache full:https://registry.npmjs.org/@types%2faria-query cache-miss
+91 silly fetch manifest dom-accessibility-api@^0.5.9
+92 silly packumentCache full:https://registry.npmjs.org/dom-accessibility-api cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/aria-query 62ms (cache revalidated)
+94 silly packumentCache full:https://registry.npmjs.org/aria-query set size:98864 disposed:false
+95 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api 64ms (cache revalidated)
+96 silly packumentCache full:https://registry.npmjs.org/dom-accessibility-api set size:175425 disposed:false
+97 http fetch GET 200 https://registry.npmjs.org/lz-string 72ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/lz-string set size:undefined disposed:false
+99 http fetch GET 200 https://registry.npmjs.org/@types%2faria-query 79ms (cache miss)
+100 silly packumentCache full:https://registry.npmjs.org/@types%2faria-query set size:undefined disposed:false
+101 http fetch GET 200 https://registry.npmjs.org/pretty-format 247ms (cache miss)
+102 silly packumentCache full:https://registry.npmjs.org/pretty-format set size:undefined disposed:false
+103 silly placeDep ROOT @types/aria-query@5.0.4 OK for: @testing-library/dom@10.4.2 want: ^5.0.1
+104 silly placeDep node_modules/@testing-library/dom aria-query@5.3.0 OK for: @testing-library/dom@10.4.2 want: 5.3.0
+105 silly placeDep node_modules/@testing-library/dom dom-accessibility-api@0.5.16 OK for: @testing-library/dom@10.4.2 want: ^0.5.9
+106 silly placeDep ROOT lz-string@1.5.0 OK for: @testing-library/dom@10.4.2 want: ^1.5.0
+107 silly placeDep ROOT pretty-format@27.5.1 OK for: @testing-library/dom@10.4.2 want: ^27.0.2
+108 silly fetch manifest dequal@^2.0.3
+109 silly packumentCache full:https://registry.npmjs.org/dequal cache-miss
+110 silly fetch manifest react-is@^17.0.1
+111 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+112 silly fetch manifest ansi-styles@^5.0.0
+113 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/ansi-styles 55ms (cache revalidated)
+115 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:71772 disposed:false
+116 http fetch GET 200 https://registry.npmjs.org/react-is 60ms (cache revalidated)
+117 silly packumentCache full:https://registry.npmjs.org/react-is set size:5671336 disposed:false
+118 http fetch GET 200 https://registry.npmjs.org/dequal 77ms (cache miss)
+119 silly packumentCache full:https://registry.npmjs.org/dequal set size:undefined disposed:false
+120 silly fetch manifest eslint@>=9.0.0
+121 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+122 http fetch GET 200 https://registry.npmjs.org/eslint 54ms (cache revalidated)
+123 silly packumentCache full:https://registry.npmjs.org/eslint set size:2085131 disposed:false
+124 silly fetch manifest jiti@*
+125 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/jiti 122ms (cache revalidated)
+127 silly packumentCache full:https://registry.npmjs.org/jiti set size:387989 disposed:false
+128 verbose stack Error: could not resolve
+128 verbose stack     at PlaceDep.failPeerConflict (/Users/angelomadara/.hermes/node/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+128 verbose stack     at new PlaceDep (/Users/angelomadara/.hermes/node/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+128 verbose stack     at #buildDepStep (/Users/angelomadara/.hermes/node/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:920:18)
+128 verbose stack     at async Arborist.buildIdealTree (/Users/angelomadara/.hermes/node/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+128 verbose stack     at async Promise.all (index 1)
+128 verbose stack     at async Arborist.reify (/Users/angelomadara/.hermes/node/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:133:5)
+128 verbose stack     at async Install.exec (/Users/angelomadara/.hermes/node/lib/node_modules/npm/lib/commands/install.js:150:5)
+128 verbose stack     at async Npm.exec (/Users/angelomadara/.hermes/node/lib/node_modules/npm/lib/npm.js:207:9)
+128 verbose stack     at async module.exports (/Users/angelomadara/.hermes/node/lib/node_modules/npm/lib/cli/entry.js:74:5)
+129 error code ERESOLVE
+130 error ERESOLVE could not resolve
+131 error
+132 error While resolving: eslint-config-next@16.3.6
+132 error Found: eslint@8.57.1
+132 error node_modules/eslint
+132 error   dev eslint@"^8.57.0" from the root project
+132 error   peer eslint@"^6.0.0 || ^7.0.0 || >=8.0.0" from @eslint-community/eslint-utils@4.10.1
+132 error   node_modules/@eslint-community/eslint-utils
+132 error     @eslint-community/eslint-utils@"^4.9.1" from @typescript-eslint/utils@8.70.1
+132 error     node_modules/@typescript-eslint/utils
+132 error       @typescript-eslint/utils@"8.70.1" from @typescript-eslint/eslint-plugin@8.70.1
+132 error       node_modules/@typescript-eslint/eslint-plugin
+132 error         @typescript-eslint/eslint-plugin@"8.70.1" from typescript-eslint@8.70.1
+132 error         node_modules/typescript-eslint
+132 error       2 more (@typescript-eslint/type-utils, typescript-eslint)
+132 error     @eslint-community/eslint-utils@"^4.2.0" from eslint@8.57.1
+132 error   11 more (@eslint-community/eslint-utils, ...)
+132 error
+132 error Could not resolve dependency:
+132 error peer eslint@">=9.0.0" from eslint-config-next@16.3.6
+132 error node_modules/eslint-config-next
+132 error   dev eslint-config-next@"^16.3.6" from the root project
+132 error
+132 error Conflicting peer dependency: eslint@10.11.0
+132 error node_modules/eslint
+132 error   peer eslint@">=9.0.0" from eslint-config-next@16.3.6
+132 error   node_modules/eslint-config-next
+132 error     dev eslint-config-next@"^16.3.6" from the root project
+132 error
+132 error Fix the upstream dependency conflict, or retry
+132 error this command with --force or --legacy-peer-deps
+132 error to accept an incorrect (and potentially broken) dependency resolution.
+133 error
+133 error
+133 error For a full report see:
+133 error /Users/angelomadara/Github/whitelabel-keep/.npm-cache/_logs/2026-09-28T07_46_55_818Z-eresolve-report.txt
+134 silly unfinished npm timer reify 1790581616065
+135 silly unfinished npm timer reify:loadTrees 1790581616066
+136 silly unfinished npm timer idealTree:buildDeps 1790581616132
+137 silly unfinished npm timer idealTree:node_modules/eslint-config-next 1790581617808
+138 verbose cwd /Users/angelomadara/Github/whitelabel-keep
+139 verbose os Darwin 25.6.0
+140 verbose node v24.17.0
+141 verbose npm  v10.9.8
+142 verbose exit 1
+143 verbose code 1
+144 error A complete log of this run can be found in: /Users/angelomadara/Github/whitelabel-keep/.npm-cache/_logs/2026-09-28T07_46_55_818Z-debug-0.log
